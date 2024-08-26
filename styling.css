@@ -387,10 +387,10 @@ footer .next_btn:hover{
 }
 
 /* Media Query for Phones (max-width: 600px) */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .info_box, .quiz_box, .result_box {
-        width: 90%;
-        padding: 20px;
+        width: 75%;
+        padding: 15px;
     }
 
     .start_btn button {
@@ -415,7 +415,6 @@ footer .next_btn:hover{
     }
 }
 
-/* Media Query for Desktops (min-width: 1200px) */
 @media (min-width: 1200px) {
     .info_box, .quiz_box, .result_box {
         width: 700px;
